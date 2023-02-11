@@ -373,7 +373,7 @@ bool music_mask_user(uint16_t keycode) {
     void keyboard_post_init_user(void) {
         rgblight_enable_noeeprom(); // Enables RGB, without saving settings
         // Vibrant cyan
-        rgblight_sethsv_noeeprom(HSV_SPRINGGREEN);
+        rgblight_sethsv_noeeprom(HSV_YELLOW);
         rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
     }
 #endif
